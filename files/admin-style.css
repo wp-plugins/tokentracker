@@ -1,0 +1,55 @@
+
+#tt_h3 {
+	font: normal 15px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	padding: 3px 0 0 0;
+	margin: 0;
+}
+
+.tt_submit { float: right; }
+
+.tt_right { float: right; }
+
+.tt_signup {
+	margin-left: 1em;
+}
+
+.tt_api_key_secret {
+	font-size: 90%;
+	color: #777;
+}
+
+
+#tt_error {
+	margin: 0 0 16px 8px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 12px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFEBE8;
+	border-color: #CC0000;
+	font-size: 85%;
+}
+
+
+
+#adminmenu #toplevel_page_tokentracker-tokentracker_wp_plugin div.wp-menu-image {
+	background: transparent url("../files/tt_menu.png") no-repeat scroll -2px -32px;
+}
+
+#adminmenu #toplevel_page_tokentracker-tokentracker_wp_plugin:hover div.wp-menu-image,
+#adminmenu #toplevel_page_tokentracker-tokentracker_wp_plugin.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url("../files/tt_menu.png") no-repeat scroll -2px 0px;
+}
+
+
+#adminmenu #toplevel_page_tokentracker_plugin div.wp-menu-image {
+	background: transparent url("../files/tt_menu.png") no-repeat scroll -2px -32px;
+}
+
+#adminmenu #toplevel_page_tokentracker_plugin:hover div.wp-menu-image,
+#adminmenu #toplevel_page_tokentracker_plugin.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url("../files/tt_menu.png") no-repeat scroll -2px 0px;
+}
